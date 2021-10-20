@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pageMargin">190dp</dimen>
+    <dimen name="pageWidth">190dp</dimen>
+    <dimen name="offset">8dp</dimen>
+    <dimen name="pageMarginAndOffset">8dp</dimen>
+</resources>

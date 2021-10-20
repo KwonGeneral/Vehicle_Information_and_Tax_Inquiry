@@ -1,0 +1,37 @@
+{
+  "errCode": "0000",
+  "errMsg": "success",
+  "result": "SUCCESS",
+  "data": {
+    "STATUS": "200",
+    "RESPONSE": "true",
+    "CARVENDER": "제네시스",
+    "CARNAME": "GV80",
+    "SUBMODEL": "3.5T 가솔린 7인승 AWD A/T",
+    "UID": "1THLCDG04L",
+    "CARYEAR": "2020",
+    "DRIVE": "AWD",
+    "FUEL": "가솔린",
+    "PRICE": "70370000",
+    "CC": "3470",
+    "MISSION": "A/T",
+    "CARURL": "2020_gv80.png",
+    "VIN": "KMTHC81CDLU024424",
+    "RESULT": "SUCCESS",
+    "ERRMSG": "성공",
+    "FRONTTIRE": "265/50R20",
+    "REARTIRE": "265/50R20",
+    "EOILLITER": "7",
+    "WIPER": "D:650;P:450;R:전용",
+    "SEATS": "7",
+    "BATTERYLIST": [
+      {
+        "BRAND": "",
+        "MODEL": "AGM90R",
+        "TYPE": "일반"
+      }
+    ],
+    "FUELECO": "7.8",
+    "FUELTANK": "80"
+  }
+}
