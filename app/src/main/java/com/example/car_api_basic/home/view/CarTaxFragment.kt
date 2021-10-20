@@ -107,12 +107,9 @@ class CarTaxFragment : Fragment() {
                         car_tax_progress_layout.visibility = View.GONE
                         car_tax_status_message.text = "차량 데이터가 존재하지 않습니다."
                     }
-
-                    Log.d("TEST", "home_api - carTax 통신성공 바디 -> $body")
                 }
 
                 override fun onFailure(call: Call<CarTaxData>, t: Throwable) {
-                    Log.d("TEST", "home_api - carTax 통신실패 에러 -> " + t.message)
                     car_tax_hidden_layout.visibility = View.GONE
                     car_tax_progress_layout.visibility = View.GONE
                     car_tax_status_message.text = "차량 데이터가 존재하지 않습니다."

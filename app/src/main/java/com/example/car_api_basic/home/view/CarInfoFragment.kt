@@ -122,12 +122,9 @@ class CarInfoFragment : Fragment() {
                         car_info_progress_layout.visibility = View.GONE
                         car_info_status_message.text = "차량 데이터가 존재하지 않습니다."
                     }
-
-                    Log.d("TEST", "home_api - carInfo 통신성공 바디 -> $body")
                 }
 
                 override fun onFailure(call: Call<CarInfoData>, t: Throwable) {
-                    Log.d("TEST", "home_api - carInfo 통신실패 에러 -> " + t.message)
                     car_info_hidden_layout.visibility = View.GONE
                     car_info_progress_layout.visibility = View.GONE
                     car_info_status_message.text = "차량 데이터가 존재하지 않습니다."
